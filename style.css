@@ -16,7 +16,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: rgba(61, 61, 220, 0.437) ;
+    background-color: #49577786 ;
     background-size: ;
 
 }
@@ -56,7 +56,7 @@ Ul li a {
 }
 .upper2{
     text-align: center;
-    padding: 150px;
+    padding: 200px;
 }
 .upper2 h1{
     font-size: 70px;
