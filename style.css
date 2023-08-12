@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, rgba(53, 77, 200, 0.52), rgba(117, 19, 93, 0.73)), url(bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.upper{
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(61, 61, 220, 0.437) ;
+    background-size: ;
+
+}
+ul{
+    display: flex;  
+    justify-content: right;
+    padding: 20px;
+     
+    
+}
+
+ul li{
+    list-style-type: none;
+    
+    
+    
+    
+}
+Ul li a {
+    text-decoration: none;
+    color: rgb(250, 252, 255);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.cl{
+    background-color: aliceblue;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+
+    
+}
+.upper2{
+    text-align: center;
+    padding: 150px;
+}
+.upper2 h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upper2 h2{
+    color: aliceblue;
+    font-size: 50px;
+    padding: 30px  ;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: none;
+    font-size: 20px;
+    padding: 5px 30px;
+}
+#buy{
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 0;}
+#ways{
+    color: aliceblue;
+    background-color: transparent;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.hero-section{
+    margin: 100px 200px ;
+    position: relative;
+}
+.journal {
+    padding: 10px;
+}
+.journal p{
+    padding-top: 10px;
+    color: #8d97ad;
+}
+
+.pa{
+    padding: 100px 150px 0 150px;
+    color: #8d97ad;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search-box{
+    background-image:linear-gradient(to bottom, rgba(85, 89, 111, 0.52)50%, rgba(117, 19, 93, 0.73)), url(bg2.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+        
+}
+.search-box h2{
+    font-size: 50px;
+    color: aliceblue;
+    padding-bottom: 20px;
+
+}
+
+.search-txt{
+    width: 50%;
+    height: 15%;
+   
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.text-area{
+    display: flex;
+    margin-top: 10px;
+    border: 0.1px solid #8d97ad4d ;
+    
+    
+    
+}
+
+.text-card img{
+    width: 100%;
+    
+}
+.text-card p{
+    padding: 90px 40px;
+    color: #8d97adb7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.search-btn{
+    padding: 15px 40px 17px 40px;
+    margin: -6px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(15, 2, 10) ;
+    
+
+}
+.card-text{
+    display:flex;
+    margin:100px 200px;
+
+    
+}
+.first-p{
+    border: 1px solid;
+    border:none;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 40px 0 0;
+
+}
+.first-p h1{
+    color:white;
+}
+.first-p p{
+    padding-top: 10px;
+    color: white;
+}
+#one{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(4, 113, 132, 0.593) 0%, rgba(71, 217, 222, 0.782) 100%, rgba(0, 213, 255, 0.338) 100%);\
+}
+#two{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(125, 113, 230) 0%, rgb(168, 160, 222) 100%, rgba(0,212,255,1) 100%);
+}
+#three{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,147,155,1) 0%, rgba(207,38,115,1) 0%, rgba(190,7,41,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.quote{ 
+    padding:0 400px ;
+    color: #8d97adb7;
+    ;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote img{
+    width: 5%;
+} 
+#np{
+    padding-top: 30px;
+    color: black;
+} 
+.design-area {
+    display: flex;
+    margin: 100px 200px;
+    
+    
+
+} 
+
+.travel-area {
+    padding: 2%;
+    text-align: justify;} 
+
+.travel-area img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+
+.travel-area h2 {
+    font-size: 26px;
+    margin: 4% 0 4% 0;
+    text-align: justify;
+    font-weight: 100;
+}
+.travel-area p {
+    margin: 4% 0 4% 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #8d97adb7;
+
+}
+
+.travel-area button{
+    margin: 6%  4% ;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #8d97adb7;
+    cursor: pointer;
+    ;
+
+
+}
+.blog-area {
+    display: flex;
+    margin: 100px 200px;
+    
+}
+.blog-card{
+    
+    text-align: justify;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.741);
+    margin: 2%;
+    
+}
+.blog-card img{
+    width: 100%;
+    
+    
+    
+    
+    
+}
+
+.blog-card h2 {
+    font-size: 20px;
+    margin: 10% 0  5% 0;
+    
+    text-align: center;
+    font-weight: 100;
+}
+.blog-card p {
+    margin: 4% 0 15% 0;
+    padding: 0 10% 10% 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #8d97adb7;
+    
+    text-align: center;
+}
+.blog h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    
+}
+.blog p{
+    text-align: center;
+    margin: 20px 300px;
+    color: #8d97adb7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color: #dbe2f2bb;
+    padding: 70px 200px;
+    display: flex;
+}
+.footer-section{ 
+    position: relative;
+    margin-right:40px;
+    text-align: left;
+}
+.footer-section h2{
+    font-weight: bold;
+    
+    text-align:left ;
+}
+.footer-section h3{
+    font-weight: 300;
+    font-size: 24px;
+}
+    
+
+.footer-section p{
+    margin: 30px 70px 10px 0;
+    text-align: left;
+    font size: 17px;
+    color: #8d97ad ;
+}
+.social{
+    margin: 30px 0 0 0;
+    display: flex;
+}
+.social a{
+    color: white;
+    background-color: #8d97adb7 ;
+    font-size: 14px;
+    padding: 15px; 
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
